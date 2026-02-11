@@ -4,10 +4,10 @@ import "./TeamList.css";
 
 export default function TeamList({ team, onDelete, onUpdate }) {
   return (
-    <div className="container-time">
-      <h2 className="titulo-time">Seu Time Pokémon</h2>
+    <div className="squad">
+      <h2 className="squad-titulo">Seu Time Pokémon</h2>
 
-      <div className="grade-time">
+      <div className="squad-grid">
         {team.map((pokemon) => (
           <PokemonCard
             key={pokemon.id}
@@ -18,7 +18,7 @@ export default function TeamList({ team, onDelete, onUpdate }) {
         ))}
       </div>
 
-      <div className="simbolo-time">
+      <div className="rodape">
         <img src={Simbolo} alt="Símbolo" />
       </div>
     </div>

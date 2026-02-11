@@ -1,8 +1,8 @@
-.container-time {
+.squad {
   margin-top: 30px;
 }
 
-.titulo-time {
+.squad-titulo {
   text-align: center;
   color: #e2e8f0;
   margin-bottom: 30px;
@@ -10,7 +10,7 @@
   letter-spacing: 1px;
 }
 
-.grade-time {
+.squad-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 25px;
@@ -21,13 +21,13 @@
   box-sizing: border-box;
 }
 
-.simbolo-time {
+.rodape {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-.simbolo-time img {
+.rodape img {
   width: 120px;
   opacity: 0.8;
 }

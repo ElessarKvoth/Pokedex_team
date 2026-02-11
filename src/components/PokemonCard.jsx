@@ -35,7 +35,7 @@ export default function PokemonCard({ pokemon, onDelete, onUpdate }) {
 
   return (
     <div
-      className="card-pokemon"
+      className="cartao"
       style={{
         background: corFundo,
       }}
@@ -44,35 +44,35 @@ export default function PokemonCard({ pokemon, onDelete, onUpdate }) {
 
       <img src={pokemon.image} alt={pokemon.name} />
 
-      <div className="barra-tipo">
-        <div className="barra-tipo-preenchimento" />
+      <div className="barra">
+        <div className="vida" />
       </div>
 
-      <p className="texto-tipo">Tipo: {pokemon.types.join(", ")}</p>
+      <p className="tipo">Tipo: {pokemon.types.join(", ")}</p>
 
-      <div className="entradas-pokemon">
+      <div className="campos">
         <input
-          className="entrada-pokemon"
+          className="campo"
           placeholder="Apelido"
           value={apelido}
           onChange={(e) => setApelido(e.target.value)}
         />
 
         <input
-          className="entrada-pokemon"
+          className="campo"
           type="number"
           value={nivel}
           onChange={(e) => setNivel(Number(e.target.value))}
         />
       </div>
 
-      <div className="acoes-pokemon">
-        <button className="botao-pokemon botao-salvar" onClick={salvar}>
+      <div className="acoes">
+        <button className="botao botao-salvar" onClick={salvar}>
           Salvar
         </button>
 
         <button
-          className="botao-pokemon botao-liberar"
+          className="botao botao-liberar"
           onClick={() => onDelete(pokemon.id)}
         >
           Liberar

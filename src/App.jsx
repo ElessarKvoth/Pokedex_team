@@ -44,9 +44,9 @@ function App() {
   }
 
   return (
-    <div className="container-app">
-      <div className="conteudo-app">
-        <img className="logo-app" src={Logo} alt="Pokedex" />
+    <div className="app">
+      <div className="app-conteudo">
+        <img className="logo" src={Logo} alt="Pokedex" />
 
         <SearchPokemon onAdd={adicionarPokemon} />
 

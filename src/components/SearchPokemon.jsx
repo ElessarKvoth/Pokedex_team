@@ -28,16 +28,16 @@ export default function SearchPokemon({ onAdd }) {
   }
 
   return (
-    <div className="container-busca">
+    <div className="busca">
       <input
-        className="entrada-busca"
+        className="busca-campo"
         type="text"
         placeholder="Digite o nome do Pokémon..."
         value={nome}
         onChange={(e) => setNome(e.target.value)}
       />
 
-      <button className="botao-busca" onClick={buscar}>
+      <button className="busca-botao" onClick={buscar}>
         {carregando ? "Buscando..." : "Capturar"}
       </button>
     </div>
