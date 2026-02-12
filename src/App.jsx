@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SearchPokemon from "./components/SearchPokemon";
+import Pokedex from "./components/Pokedex";
 import TeamList from "./components/TeamList";
 import Logo from "./logo.png";
 import "./App.css";
@@ -49,6 +50,8 @@ function App() {
         <img className="logo" src={Logo} alt="Pokedex" />
 
         <SearchPokemon onAdd={adicionarPokemon} />
+
+        <Pokedex onAdd={adicionarPokemon} />
 
         <TeamList
           team={time}

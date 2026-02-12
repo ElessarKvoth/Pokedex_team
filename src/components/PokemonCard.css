@@ -1,8 +1,8 @@
 .cartao {
-  border-radius: 18px;
-  padding: 18px;
-  margin: 15px;
-  width: 240px;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 8px;
+  width: 140px;
   color: white;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(6px);
@@ -13,54 +13,54 @@
 }
 
 .cartao img {
-  width: 130px;
+  width: 80px;
   display: block;
   margin: 0 auto;
 }
 
 .barra {
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .vida {
   width: 100%;
   background: #00ff88;
-  height: 8px;
+  height: 6px;
 }
 
 .tipo {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .campos {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 .campo {
-  padding: 8px;
+  padding: 4px;
   border: none;
-  border-radius: 6px;
-  font-size: 0.9rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
 }
 
 .acoes {
-  margin-top: 12px;
+  margin-top: 6px;
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 4px;
 }
 
 .botao {
   border: none;
-  padding: 7px 14px;
-  border-radius: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #e2e8f0;
 }
 
